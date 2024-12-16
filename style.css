@@ -4,21 +4,21 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
-.aaa {
+.wrapper-information {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.aaa img {
+.wrapper-information img {
   width: 100%;
 }
-.aaa .more_inf {
+.wrapper-information .information__content {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.aaa { text-align: center;}
+.wrapper-information { text-align: center;}
 }
 .wrapper-tasks {
   display: block;
@@ -30,7 +30,7 @@ body {
   display: inline-block;
   flex-grow: 1
 }
-.task-row-wrapper {
+.new-task-wrapper {
   display: flex;
 }
 ul {
