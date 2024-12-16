@@ -20,7 +20,7 @@ body {
 @media (max-width:768px) {
 .aaa { text-align: center;}
 }
-.centered-main-page-element {
+.wrapper-tasks {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -127,7 +127,7 @@ button.delete img:hover {
 }
 
 /* Completed */
-ul#completed-tasks label {
+ul#block-completed-tasks label {
   text-decoration: line-through
   color: #888;
 }
