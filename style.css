@@ -18,7 +18,9 @@ body {
 }
 
 @media (max-width:768px) {
-.wrapper-information { text-align: center;}
+  .wrapper-information { 
+    text-align: center;
+  }
 }
 .wrapper-tasks {
   display: block;
